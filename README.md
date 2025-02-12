@@ -15,11 +15,11 @@ markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-$f(n)\in o(g(n)) \iff \forall c>0 and \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+$f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 Definition of big O
 
-$f(n)\in O(g(n)) \iff \exists c>0, \exists n_0, \forall n\ge n_0: f(n) n\le c g(n)$
+$f(n)\in O(g(n)) \iff \exists c>0 \and \exists n_0, \forall n\ge n_0: f(n) n\le c g(n)$
 
 Splitting Less Than or Equal to
 
