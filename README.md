@@ -25,9 +25,11 @@ Splitting Less Than or Equal to
 
 $f(n)\in O(g(n)) \iff ((\forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)) ∨ (\forall c>0, \exists n_0, \forall n\ge n_0: f(n) = c g(n)))$
 
+For big O, 
+
 Thus 
 
-o(g(n)) is a condition for O(g(n))
+O(g(n)) is a condition for o(g(n))
 
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.” - Natalie Sleight
 
