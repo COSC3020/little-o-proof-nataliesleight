@@ -21,24 +21,15 @@ Definition of big O
 
 $f(n)\in O(g(n)) \iff \exists c>0 ∧ \exists n_0, \forall n\ge n_0: f(n) n\le c g(n)$
 
-Splitting Less Than or Equal to
+There are two differences in these two definitions. For little o, all positive constant c's must be true and f(n) is less than cg(n). For big O, there only needs to be a single positive
+constant c that must be true and f(n) is less than or equal to g(n).
 
-$f(n)\in O(g(n)) \iff ((\forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)) ∨ (\forall c>0, \exists n_0, \forall n\ge n_0: f(n) = c g(n)))$
+For all positive constant c's to be true, at least one needs to be true.
 
-For big O, 
+f(n) being less than g(n) also satisfies the condition of f(n) being less than or equal to g(n)
 
-Thus 
+Thus,
 
 O(g(n)) is a condition for o(g(n))
 
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.” - Natalie Sleight
-
-
-
-T (n) ∈ o(f (n)) if for any positive constant c, there exists n0 such that
-T (n) < cf (n) for all n ≥ n0
-
-T (n) ∈ O(f (n)) if there are positive constants c and n0 such that T (n) ≤ cf (n)
-for all n ≥ n0
-
-2 differences: for any/if there are, </<=
