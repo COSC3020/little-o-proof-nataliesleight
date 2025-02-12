@@ -16,3 +16,20 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+
+Definition of big O
+
+$f(n)\in O(g(n)) \iff \exists c>0 ∧ \exists n_0, \forall n\ge n_0: f(n) n\le c g(n)$
+
+There are two differences in these two definitions. For little o, all positive constant c's must be true and f(n) is less than cg(n). For big O, there only needs to be a single positive
+constant c that must be true and f(n) is less than or equal to g(n).
+
+For all positive constant c's to be true, at least one needs to be true.
+
+f(n) being less than g(n) also satisfies the condition of f(n) being less than or equal to g(n)
+
+Thus,
+
+O(g(n)) is a condition for o(g(n))
+
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.” - Natalie Sleight
